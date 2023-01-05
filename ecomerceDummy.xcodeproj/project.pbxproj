@@ -10,7 +10,6 @@
 		7535C5322966C0B60026EEDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7535C5312966C0B60026EEDC /* AppDelegate.swift */; };
 		7535C5342966C0B60026EEDC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7535C5332966C0B60026EEDC /* SceneDelegate.swift */; };
 		7535C5362966C0B60026EEDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7535C5352966C0B60026EEDC /* ViewController.swift */; };
-		7535C5392966C0B60026EEDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7535C5372966C0B60026EEDC /* Main.storyboard */; };
 		7535C53B2966C0B70026EEDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7535C53A2966C0B70026EEDC /* Assets.xcassets */; };
 		7535C53E2966C0B70026EEDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7535C53C2966C0B70026EEDC /* LaunchScreen.storyboard */; };
 		7535C5492966C0B70026EEDC /* ecomerceDummyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7535C5482966C0B70026EEDC /* ecomerceDummyTests.swift */; };
@@ -40,7 +39,6 @@
 		7535C5312966C0B60026EEDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7535C5332966C0B60026EEDC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7535C5352966C0B60026EEDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7535C5382966C0B60026EEDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7535C53A2966C0B70026EEDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7535C53D2966C0B70026EEDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7535C53F2966C0B70026EEDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,10 +97,13 @@
 		7535C5302966C0B50026EEDC /* ecomerceDummy */ = {
 			isa = PBXGroup;
 			children = (
+				7535C5612966C2D40026EEDC /* Application */,
+				7535C5622966C2DE0026EEDC /* Constant */,
+				7535C5632966C2EB0026EEDC /* Extensions */,
+				7535C5642966C2FB0026EEDC /* Helper */,
+				7535C5652966C3040026EEDC /* Screens */,
 				7535C5312966C0B60026EEDC /* AppDelegate.swift */,
 				7535C5332966C0B60026EEDC /* SceneDelegate.swift */,
-				7535C5352966C0B60026EEDC /* ViewController.swift */,
-				7535C5372966C0B60026EEDC /* Main.storyboard */,
 				7535C53A2966C0B70026EEDC /* Assets.xcassets */,
 				7535C53C2966C0B70026EEDC /* LaunchScreen.storyboard */,
 				7535C53F2966C0B70026EEDC /* Info.plist */,
@@ -125,6 +126,74 @@
 				7535C5542966C0B70026EEDC /* ecomerceDummyUITestsLaunchTests.swift */,
 			);
 			path = ecomerceDummyUITests;
+			sourceTree = "<group>";
+		};
+		7535C5612966C2D40026EEDC /* Application */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		7535C5622966C2DE0026EEDC /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		7535C5632966C2EB0026EEDC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7535C5642966C2FB0026EEDC /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		7535C5652966C3040026EEDC /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				7535C5662966C3340026EEDC /* Product */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		7535C5662966C3340026EEDC /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				7535C5672966C3400026EEDC /* Model */,
+				7535C5682966C3480026EEDC /* View */,
+				7535C5692966C3520026EEDC /* ViewModel */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		7535C5672966C3400026EEDC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7535C5682966C3480026EEDC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7535C5352966C0B60026EEDC /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7535C5692966C3520026EEDC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +302,6 @@
 			files = (
 				7535C53E2966C0B70026EEDC /* LaunchScreen.storyboard in Resources */,
 				7535C53B2966C0B70026EEDC /* Assets.xcassets in Resources */,
-				7535C5392966C0B60026EEDC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +365,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7535C5372966C0B60026EEDC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7535C5382966C0B60026EEDC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7535C53C2966C0B70026EEDC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +502,6 @@
 				INFOPLIST_FILE = ecomerceDummy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +529,6 @@
 				INFOPLIST_FILE = ecomerceDummy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
