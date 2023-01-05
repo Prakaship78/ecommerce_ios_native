@@ -14,6 +14,8 @@ enum DataError : Error {
     case message(_ error : Error?)
 }
 
+// typealias to define a var for data type
+typealias Handler = (Result<[ProductModel], DataError>) -> Void
 //Singleton pattern
 // to restrict class fro inheritence then make class final
 final class APIManager {
@@ -22,7 +24,7 @@ final class APIManager {
     // to restrict creating an object of class we use private init
     private init(){}
     
-    func fetchProducts (_ completion : @escaping (Result<[ProductModel], DataError>) -> Void ) {
+    func fetchProducts (_ completion : @escaping Handler ) {
         guard let url = URL(string: Constant.API.productURL) else{return}
         let task = URLSession.shared.dataTask(with: url) { data, response, error in
             guard let data , error == nil else {
