@@ -15,6 +15,9 @@
 		7535C5492966C0B70026EEDC /* ecomerceDummyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7535C5482966C0B70026EEDC /* ecomerceDummyTests.swift */; };
 		7535C5532966C0B70026EEDC /* ecomerceDummyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7535C5522966C0B70026EEDC /* ecomerceDummyUITests.swift */; };
 		7535C5552966C0B70026EEDC /* ecomerceDummyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7535C5542966C0B70026EEDC /* ecomerceDummyUITestsLaunchTests.swift */; };
+		7535C56B2966C3AC0026EEDC /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7535C56A2966C3AC0026EEDC /* ProductModel.swift */; };
+		7535C56D2966C45A0026EEDC /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7535C56C2966C45A0026EEDC /* ApiManager.swift */; };
+		7535C56F2966C7420026EEDC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7535C56E2966C7420026EEDC /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		7535C54E2966C0B70026EEDC /* ecomerceDummyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ecomerceDummyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7535C5522966C0B70026EEDC /* ecomerceDummyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ecomerceDummyUITests.swift; sourceTree = "<group>"; };
 		7535C5542966C0B70026EEDC /* ecomerceDummyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ecomerceDummyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7535C56A2966C3AC0026EEDC /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		7535C56C2966C45A0026EEDC /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		7535C56E2966C7420026EEDC /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +144,7 @@
 		7535C5622966C2DE0026EEDC /* Constant */ = {
 			isa = PBXGroup;
 			children = (
+				7535C56E2966C7420026EEDC /* Constant.swift */,
 			);
 			path = Constant;
 			sourceTree = "<group>";
@@ -152,6 +159,7 @@
 		7535C5642966C2FB0026EEDC /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				7535C56C2966C45A0026EEDC /* ApiManager.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -177,6 +185,7 @@
 		7535C5672966C3400026EEDC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7535C56A2966C3AC0026EEDC /* ProductModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -328,7 +337,10 @@
 			files = (
 				7535C5362966C0B60026EEDC /* ViewController.swift in Sources */,
 				7535C5322966C0B60026EEDC /* AppDelegate.swift in Sources */,
+				7535C56D2966C45A0026EEDC /* ApiManager.swift in Sources */,
 				7535C5342966C0B60026EEDC /* SceneDelegate.swift in Sources */,
+				7535C56B2966C3AC0026EEDC /* ProductModel.swift in Sources */,
+				7535C56F2966C7420026EEDC /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
