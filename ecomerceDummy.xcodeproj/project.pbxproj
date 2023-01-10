@@ -20,6 +20,7 @@
 		7535C56F2966C7420026EEDC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7535C56E2966C7420026EEDC /* Constant.swift */; };
 		754254702969BCE000F11AF4 /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7542546F2969BCE000F11AF4 /* ProductsViewModel.swift */; };
 		754254722969C6A200F11AF4 /* ProductsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754254712969C6A200F11AF4 /* ProductsCell.swift */; };
+		756BAF05296DACF4001EE50F /* UIViewController + Entension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756BAF04296DACF4001EE50F /* UIViewController + Entension.swift */; };
 		75B640CD296A8CFD0013D5CF /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 75B640CC296A8CFD0013D5CF /* Kingfisher */; };
 		75B640CF296A8D210013D5CF /* UiImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B640CE296A8D210013D5CF /* UiImageView + Extension.swift */; };
 /* End PBXBuildFile section */
@@ -59,6 +60,7 @@
 		7535C56E2966C7420026EEDC /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		7542546F2969BCE000F11AF4 /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
 		754254712969C6A200F11AF4 /* ProductsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCell.swift; sourceTree = "<group>"; };
+		756BAF04296DACF4001EE50F /* UIViewController + Entension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Entension.swift"; sourceTree = "<group>"; };
 		75B640CE296A8D210013D5CF /* UiImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiImageView + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -161,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				75B640CE296A8D210013D5CF /* UiImageView + Extension.swift */,
+				756BAF04296DACF4001EE50F /* UIViewController + Entension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				756BAF05296DACF4001EE50F /* UIViewController + Entension.swift in Sources */,
 				7535C5362966C0B60026EEDC /* ProductListViewController.swift in Sources */,
 				75B640CF296A8D210013D5CF /* UiImageView + Extension.swift in Sources */,
 				754254722969C6A200F11AF4 /* ProductsCell.swift in Sources */,
