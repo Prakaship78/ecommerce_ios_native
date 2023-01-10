@@ -9,28 +9,37 @@ import XCTest
 @testable import ecomerceDummy
 
 final class ecomerceDummyTests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    
+    var simpleMath : SimpleMath!
+    
+    // called before every test
+    override func setUp() {
+        simpleMath = SimpleMath()
+    }
+    
+    //called after every test
+    override func tearDown() {
+        simpleMath = nil
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    //Test cases
+    func testAddTenWorks(){
+        //Given - Arrange
+        var expected : Int = 0
+        // When - Act
+        expected = simpleMath.addTen(number: 10)
+        //Then - Assert
+//        XCTAssert(expected == 20, "error message to show wehn test failed")
+//        XCTAssertTrue(expected==20)
+        XCTAssertEqual(expected, 20, "error message when failed")
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testSquare(){
+        var expected : Int = 0
+        
+        expected = simpleMath.square(10)
+        
+        XCTAssertEqual(expected, 100)
     }
 
 }

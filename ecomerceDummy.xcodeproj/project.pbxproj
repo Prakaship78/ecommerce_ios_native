@@ -21,6 +21,7 @@
 		754254702969BCE000F11AF4 /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7542546F2969BCE000F11AF4 /* ProductsViewModel.swift */; };
 		754254722969C6A200F11AF4 /* ProductsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754254712969C6A200F11AF4 /* ProductsCell.swift */; };
 		756BAF05296DACF4001EE50F /* UIViewController + Entension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756BAF04296DACF4001EE50F /* UIViewController + Entension.swift */; };
+		756BAF0A296DDF5B001EE50F /* SimpleMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756BAF09296DDF5B001EE50F /* SimpleMath.swift */; };
 		75B640CD296A8CFD0013D5CF /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 75B640CC296A8CFD0013D5CF /* Kingfisher */; };
 		75B640CF296A8D210013D5CF /* UiImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B640CE296A8D210013D5CF /* UiImageView + Extension.swift */; };
 /* End PBXBuildFile section */
@@ -61,6 +62,7 @@
 		7542546F2969BCE000F11AF4 /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
 		754254712969C6A200F11AF4 /* ProductsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCell.swift; sourceTree = "<group>"; };
 		756BAF04296DACF4001EE50F /* UIViewController + Entension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Entension.swift"; sourceTree = "<group>"; };
+		756BAF09296DDF5B001EE50F /* SimpleMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMath.swift; sourceTree = "<group>"; };
 		75B640CE296A8D210013D5CF /* UiImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiImageView + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,6 +125,7 @@
 				7535C53A2966C0B70026EEDC /* Assets.xcassets */,
 				7535C53C2966C0B70026EEDC /* LaunchScreen.storyboard */,
 				7535C53F2966C0B70026EEDC /* Info.plist */,
+				756BAF09296DDF5B001EE50F /* SimpleMath.swift */,
 			);
 			path = ecomerceDummy;
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 				7535C5342966C0B60026EEDC /* SceneDelegate.swift in Sources */,
 				7535C56B2966C3AC0026EEDC /* ProductModel.swift in Sources */,
 				7535C56F2966C7420026EEDC /* Constant.swift in Sources */,
+				756BAF0A296DDF5B001EE50F /* SimpleMath.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
