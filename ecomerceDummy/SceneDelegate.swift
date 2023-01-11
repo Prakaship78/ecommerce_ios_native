@@ -21,6 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.windowScene = windowScene
         window?.rootViewController = UINavigationController(rootViewController: ProductListViewController())
         window?.makeKeyAndVisible()
+        AppDelegate.shared.window = window
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

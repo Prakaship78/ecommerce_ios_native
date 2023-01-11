@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SVProgressHUD
 
 class ProductListViewController: UIViewController {
     
@@ -18,11 +19,12 @@ class ProductListViewController: UIViewController {
         return table
     }()
     
-    var loader: UIAlertController = UIAlertController()
+//    var loader: UIAlertController = UIAlertController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-         loader = self.showLoader()
+        SVProgressHUD.show(withStatus: "Loading...")
+//         loader = self.showLoader()
         view.backgroundColor = .systemBackground
         title = "Products"
         navigationController?.navigationBar.prefersLargeTitles = true
@@ -85,7 +87,8 @@ extension ProductListViewController {
             case .loading:
                 print("Products loading")
             case .stopLoading:
-                self.stopLoader(loader: self.loader)
+//                self.stopLoader(loader: self.loader)
+                SVProgressHUD.dismiss()
                 print("Stop Loading")
             case.dataLoaded:
                 print("Products loaded")
